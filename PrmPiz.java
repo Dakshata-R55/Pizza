@@ -2,9 +2,9 @@ package Pizza;
 
 public class PrmPiz extends Pizza implements PrmPizInt {
 
-    public Customer customer;
+    public CusInt customer;
 
-    PrmPiz(Customer cust){
+    PrmPiz(CusInt cust){
         this.customer=cust;
         setOrdId(customer.getOrdId());
     }
@@ -20,3 +20,4 @@ public class PrmPiz extends Pizza implements PrmPizInt {
 
 
 }
+
