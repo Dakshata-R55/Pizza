@@ -10,12 +10,12 @@ RegPizInt rp=new RegPiz();
 rp.setPrice(50);
 
 
-Customer cus1=new Customer();
-        PrmPiz pp=new PrmPiz(cus1);
+CusInt cus1=new Customer();
+         cus1.setOrdId(235);
+        PrmPizInt pp=new PrmPiz(cus1);
         cus1.setPizzaTyp("premium");
         cus1.setSize(8);
         cus1.setPiece(3);
-        cus1.setOrdId(235);
         pp.setPrice(80);
 
 
@@ -38,3 +38,4 @@ Customer cus1=new Customer();
 
     }
 }}
+
